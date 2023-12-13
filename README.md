@@ -30,52 +30,14 @@ Next, you will need to download and install Python, with [Version 3.8](https://w
 
 To utilize the Arduino board as a computer mouse, you can choose from five different sketches that are located within the [ArduinoSketches](https://github.com/hafyzwithawhy/Colorant/tree/main/ArduinoSketches) folder. Connect the Arduino board to your computer and open the Arduino IDE software. Then, select the appropriate board and port, and upload the desired sketch. By following these steps, you can turn your Arduino board into a functional computer mouse, enabling you to control the cursor and perform clicking functions using the board's hardware. I suggest trying out each of the five sketches to determine which one works best for your mouse.
 
-Note that if you selected a sketch other than [1Arduino](https://github.com/hafyzwithawhy/Colorant/tree/main/ArduinoSketches/1Arduino), you may need to configure [move](https://github.com/hafyzwithawhy/Colorant/blob/674355e95507c455ec14c4a6f5c11271d889a71e/mouse.py#L31) and [click](https://github.com/hafyzwithawhy/Colorant/blob/674355e95507c455ec14c4a6f5c11271d889a71e/mouse.py#L36) functions to make it compatible with your Arduino sketch. The Colorant code is currently optimized for the [1Arduino](https://github.com/hafyzwithawhy/Colorant/tree/main/ArduinoSketches/1Arduino) sketch, so adjustments may be necessary for other sketches.
-
 With the prerequisites and dependencies installed, you can now run the `main.py` file, which is the main entry point of the program. You do not need to make any changes to the code, as it is ready to use.
 
 By following these steps, you can enjoy using Colorant to quickly and accurately aim and shoot within your favorite valorant gamemode.
 
-## Configuration
-You can customize Colorant to suit your preferences:
-
-- Enemy outlines should be set to PURPLE, as this is how the color aimbot operates.
-- The FOV size can be adjusted by editing the value located [Here](https://github.com/hafyzwithawhy/Colorant/blob/836189fb99fa8d6906569103d58a75b4ab98b760/main.py#L8), please note that the existing code is optimized for the use of a 50 FOV, so adjustments to the code may be required to ensure proper functionality for other fov sizes.
-- Modify keybinds by changing the virtual-key codes in [This](https://github.com/hafyzwithawhy/Colorant/blob/836189fb99fa8d6906569103d58a75b4ab98b760/colorant.py#L26) function. Refer to [This](https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes) link for virtual-key codes.
-
-By making these adjustments, you can fine-tune Colorant to suit your preferences and optimize its performance within the game.
-## Support
-
-If you require support or have any questions regarding Colorant, please feel free to join the community Discord:
-
-[![Discord Banner 2][discord-banner]][discord-link]
-
-I would like to express my sincere appreciation and give due credit to the program Firepro, which served as a significant inspiration for the development of my Project Colorant. Furthermore, I would like to clarify that the Arduino sketches incorporated within this project were not coded by me.
-
-## Contributing
-
-Contributions are welcome from the community, and if you have any suggestions or encounter any issues, please do not hesitate to open an [issue](https://github.com/hafyzwithawhy/Colorant/issues) in the repository and provide as much detail as possible. Additionally, if you find this project helpful or interesting, please give it a ⭐.
-
-## Disclaimer
-
-> **Note**
-It is important to note that this project is intended for EDUCATIONAL PURPOSES ONLY, and should be used at YOUR OWN RISK.
-
-> **Note**
-Although the project is undetectable, this does not mean that it is not bannable. I do not condone any form of hacking, as it can ruin the game experience for both yourself and other players. This project was created solely to demonstrate the possibility of using an Arduino and a simple Python script to "cheat" within a video game.
-
-> **Warning**
-It is important to note that while the current implementation may be undetectable, Riot Games could still take action against the current source code itself. To minimize the risk of detection, it is advisable to modify the existing code or create a unique implementation based on the same concept. 
-
-[discord-shield]: https://img.shields.io/discord/1102647720981831750?color=purple&label=Support&logo=discord&logoColor=white&style=for-the-badge
-[discord-link]: https://discord.gg/P92kGvubRd
-[discord-banner]: https://discordapp.com/api/guilds/1102647720981831750/widget.png?style=banner2
-
-[downloads-shield]: https://img.shields.io/github/downloads/hafyzwithawhy/Colorant/total?color=purple&logo=GitHub&style=for-the-badge
-[downloads-link]: https://github.com/hafyzwithawhy/Colorant/releases/latest
-
-[language-shield]: https://img.shields.io/github/languages/top/hafyzwithawhy/Colorant?color=purple&logo=python&logoColor=white&style=for-the-badge
-[language-link]: https://www.python.org/
-
-[license-shield]: https://img.shields.io/github/license/hafyzwithawhy/Colorant?color=purple&logo=github&style=for-the-badge
-[license-link]: https://github.com/hafyzwithawhy/Colorant/blob/main/LICENSE
+Install
+pip install pyserial
+pip install pyautogui
+pip install termcolor
+pip install colorant
+pip install opencv-python
+pip install mss
