@@ -1,5 +1,5 @@
 <h1 align="center">Colorant 🍇</h1>
-
+install pip pyserial pyautogui termcolor colorant opencv-python mss
 ### About
 
 Colorant is a highly efficient color aimbot designed to rapidly scan for a range of purple color of the valorant enemy player outlines on your screen and precisely aim/shoot at it, without any interference with the game memory or files of Valorant.
@@ -33,11 +33,3 @@ To utilize the Arduino board as a computer mouse, you can choose from five diffe
 With the prerequisites and dependencies installed, you can now run the `main.py` file, which is the main entry point of the program. You do not need to make any changes to the code, as it is ready to use.
 
 By following these steps, you can enjoy using Colorant to quickly and accurately aim and shoot within your favorite valorant gamemode.
-
-Install
-pip install pyserial
-pip install pyautogui
-pip install termcolor
-pip install colorant
-pip install opencv-python
-pip install mss
