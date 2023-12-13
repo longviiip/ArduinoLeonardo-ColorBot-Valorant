@@ -1,5 +1,4 @@
 <h1 align="center">Colorant 🍇</h1>
-install pip pyserial pyautogui termcolor colorant opencv-python mss
 ### About
 
 Colorant is a highly efficient color aimbot designed to rapidly scan for a range of purple color of the valorant enemy player outlines on your screen and precisely aim/shoot at it, without any interference with the game memory or files of Valorant.
